@@ -46,26 +46,7 @@ int minimo(int a,int b)
 		return b;
 	}
 }
-//int** multiplicacion(int **A,int **B,int n,int Blocktam){
-//	int **C;
-//	crearMatriz2d(C,n);
-//	LLenarCon0(C,n);
-//	for(int i=0;i<n;i+=Blocktam){
-//		for(int j=0;j<n;j+=Blocktam){
-//			for(int k=0;k<n;k+=Blocktam){
-//				for(int l=i;l<minimo(i+Blocktam,n);l++){
-//					for(int m=j;m<minimo(j+Blocktam,n);m++){
-//						for(int p=k;p<minimo(k+Blocktam,n);p++){
-//							C[l][m]+=A[l][m]*B[m][p];
-////							*(*(C+(i+l))+(j+m))+=*(*(A+(i+l))+(k+p)) * (*(*(B+(k+p))+(j+m)));
-//						}
-//					}
-//				}
-//			}
-//		}
-//	}
-//	return C;
-//}
+
 
 int** multiplicacion(int **A,int **B,int n,int Blocktam){
 	int **C;
